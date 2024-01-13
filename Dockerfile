@@ -1,15 +1,11 @@
 # Use a suitable Java base image
 FROM openjdk:11
 
-# # Maintainer information (optional)
-# LABEL maintainer="Your Name <your.email@example.com>"
-
 # Set working directory
 WORKDIR /app
 
 # Copy application code to the container
-COPY RandomNumberGenerator-0.0.1-SNAPSHOT.jar /app/app.jar
-
+COPY app.jar /app/app.jar
 
 # Expose the necessary port
 EXPOSE 8081
