@@ -27,4 +27,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: elli31/random-number-generator:01
+          tags: elli31/random-number-generator:random1

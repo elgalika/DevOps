@@ -12,7 +12,7 @@ COPY RandomNumberGenerator-0.0.1-SNAPSHOT.jar /app/app.jar
 
 
 # Expose the necessary port
-EXPOSE 8080
+EXPOSE 8081
 
 # Configure logging to write to a local file in append mode
 RUN ln -sf /dev/stdout /app/app.log
