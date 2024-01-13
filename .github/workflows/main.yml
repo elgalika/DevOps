@@ -1,5 +1,5 @@
 name: Build and push Docker image
-
+ 
 on: 
   push:
     branches: [ main ]  # Trigger on pushes to the master branch
