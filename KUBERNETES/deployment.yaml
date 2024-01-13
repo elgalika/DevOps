@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: random-number-generator
-        image: elli31/random-number-generator:latest
+        image: elli31/random-number-generator:random1
         ports:
         - containerPort: 8081
         resources:
